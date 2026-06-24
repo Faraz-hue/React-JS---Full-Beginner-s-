@@ -1,7 +1,12 @@
-
+import reactLogo from '../assets/react.svg'
 
 export default function Navbar() {
     return (
-        <h1>Hi fromNav Bar</h1>
+        <header>
+            <nav>
+                <img src={reactLogo} alt="React Logo" srcset="" />
+                <span>ReactFacts</span>
+            </nav>
+        </header>
     );
 }
