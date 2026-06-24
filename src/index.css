@@ -1,62 +1,54 @@
-* {
-  box-sizing: border-box;
-}
-
+html,
 body {
   margin: 0;
-  font-family: Inter, Sans-serif;
-  background-color: #282D35;
-  color: white;
 }
 
 header {
-  height: 90px;
-  background-color: #21222A;
-  padding: 30px 25px;
-}
-
-nav {
+  background: red;
   display: flex;
+  justify-content: center;
   align-items: center;
-  height: 100%;
+  color: white;
+  height: 55px;
 }
 
 nav>img {
-  width: 40px;
+  width: 24px;
   margin-right: 7px;
+
 }
 
 nav>span {
-  font-size: 1.4rem;
-  color: aqua;
-  font-weight: 700;
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: Inter;
 }
 
-main {
-  background-color: #232D35;
-  padding: 60px 30px;
-  background-image: url("./assets/react.svg");
-  background-repeat: no-repeat;
-  background-position: right 70%;
-  background-size: 200px 300px;
+.journal-entry {
+  display: flex;
+  padding: 30px;
 }
 
-main>h1 {
-  margin: 0;
-  font-size: 2.4rem;
+.main-content {
+  padding-left: 16px;
 }
 
-.facts-list {
-  margin-top: 46px;
-  max-width: 400px;
+.main-content>span,
+a {
+  padding-left: 4px;
 }
 
-.facts-list>li {
-  padding-block: 20px;
-  line-height: 19px;
+
+.main-img-container {
+  width: 125px;
+  height: 168px;
+  overflow: hidden;
+  border-radius: 5px;
+  flex-shrink: 0;
 }
 
-.facts-list>li::marker {
-  color: aqua;
-  font-size: 1.5rem;
+.main-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
