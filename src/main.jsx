@@ -2,53 +2,15 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import reactLogo from './assets/react.svg'
 import './index.css'
-import App from './App.jsx'
-
+import Header from "./Header";
+import MainComponent from "./MainComponent";
+import Footer from "./Footer";
 const root = createRoot(document.getElementById("root"))
 
 root.render(
   <Chellenge />
 )
 
-function Header() {
-  return (
-    <>
-      <header className='header'>
-        <img className='nav-logo' src={reactLogo} alt='React Logo'></img>
-        <nav>
-          <ul className='nav-list'>
-            <li className='nav-list-item'>Pricing</li>
-            <li className='nav-list-item'>About</li>
-            <li className='nav-list-item'>Contact</li>
-          </ul>
-        </nav>
-      </header>
-    </>
-  )
-}
-
-function MainComponent() {
-  return (
-    <>
-      <main className='container'>
-        <h1>I am excited to learn React</h1>
-        <ol>
-          <li>Released in 2013</li>
-          <li>And Supported by Meta</li>
-        </ol>
-      </main>
-    </>
-  )
-}
-
-function Footer() {
-  return (
-    <>
-      <footer className='footer'>
-        &copyright 2026 Faraz developer. All right reserved
-      </footer>
-    </>)
-}
 function Chellenge() {
   return (
     // Empty brackets are fragments
