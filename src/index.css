@@ -52,3 +52,39 @@ a {
   width: 100%;
   object-fit: cover;
 }
+
+.contacts {
+  padding: 5px;
+
+}
+
+.contact-card {
+  width: 30%;
+
+}
+
+.contact-card>img {
+  width: 90%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: auto;
+
+}
+
+.info-group {
+  display: flex;
+}
+
+.info-group>img {
+  width: 10%;
+  margin-right: 12px;
+  margin-left: 5px;
+}
+
+h3 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+}
