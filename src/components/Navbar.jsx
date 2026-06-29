@@ -1,10 +1,10 @@
-import reactLogo from '../assets/react.svg'
+import chefPng from '../assets/chef.png'
 
 export default function Navbar() {
     return (
         <nav>
-            <img src={reactLogo} alt="React Logo" srcset="" />
-            <span>My Travel Journal</span>
+            <img src={chefPng} alt="Chef Logo" />
+            <span>Chef Claude</span>
         </nav>
     );
 }
