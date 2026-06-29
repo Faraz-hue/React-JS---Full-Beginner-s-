@@ -41,7 +41,13 @@ export default function Body() {
             return `You have ${unreadMessages.length} unread messages`
         }
     }
+
     // End conditional Rendering
+
+    const [recipeShown, setRecipeShown] = React.useState(false)
+    function toggleRecipeShown() {
+        setRecipeShown(prevShown => !prevShown)
+    }
     return (
         <>
             <div>
@@ -63,17 +69,18 @@ export default function Body() {
                     value="+ Add Ingredient"
                 />
             </form>
-            <section>
+            {ingredients.length > 0 && <section>
                 <h2>Ingre dient on Hand</h2>
                 <ul className="ingredients-list">{ListIngrediwnt}</ul>
-                <div className="get-recipe-container">
+                {ingredients.length > 3 && < div className="get-recipe-container">
                     <div>
                         <h3>Ready for a Recipe</h3>
                         <p>Generate a recipe from your list of ingredients.</p>
                     </div>
-                </div>
-            </section>
-            <section className="form">
+                    <button onClick={toggleRecipeShown}>Get a recipe</button>
+                </div>}
+            </section >}
+            {recipeShown && <section className="form">
                 <h1 className="signup">SignUp Form</h1>
                 <form action={signup}>
                     <label htmlFor="email">Enter Email
@@ -134,7 +141,7 @@ export default function Body() {
                     </select>
                     <button>Submit</button>
                 </form>
-            </section>
+            </section>}
         </>
     );
 }
