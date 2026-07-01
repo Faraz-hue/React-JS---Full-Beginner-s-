@@ -1,22 +1,60 @@
+# React JS - Full Beginner's 🚀
 
-# React + Vite
+A beginner-friendly React.js learning repository where I practice and build small projects while learning React fundamentals.
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+This repository contains my journey of learning React step by step — from basic concepts to building interactive applications.
 
-Currently, two official plugins are available:
+## 📚 What I am Learning
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React components
+- JSX
+- Props
+- State management
+- useState hook
+- Event handling
+- Conditional rendering
+- Rendering lists
+- Forms and controlled inputs
+- Component structure
+- Project organization
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Vite
+- Git & GitHub
 
-## Expanding the Oxlint configuration
+## 📂 Projects Included
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. 
-Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
-=======
-# React-JS---Full-Beginner
-Learn React JS - Full Beginner’s Tutorial &amp; Practice Projects
+### 🔢 Small Counter App
+A simple counter application built to practice React state.
 
+Features:
+- Increment counter
+- Decrement counter
+- Reset counter
+- State updates using `useState`
+
+---
+
+### ✅ Todo App
+
+A basic todo application built to practice handling user input and rendering dynamic lists.
+
+Features:
+- Add tasks
+- Display tasks
+- Manage input state
+- Render lists using `.map()`
+
+---
+
+## 🚀 Getting Started
+
+Clone this repository:
+
+```bash
+git clone https://github.com/Faraz-hue/React-JS---Full-Beginner-s-.git
